@@ -1,7 +1,8 @@
 package shape.shape3D;
 
-interface Shape3D {  	//定义Shape3D接口 
-	double volume();
+interface Shape3D
+ {  	
+                double volume();
 }
 class Test{
 	public static void main(String[] args) {
