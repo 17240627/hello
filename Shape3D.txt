@@ -1,0 +1,14 @@
+package shape.shape3D;
+
+interface Shape3D {  	//定义Shape3D接口 
+	double volume();
+}
+class Test{
+	public static void main(String[] args) {
+		Sphere sp=new Sphere(6);
+		Square sq=new Square(18,9,12);
+		System.out.println("球的体积为:"+sp.volume());
+		System.out.println("长方体的体积为:"+sq.volume());
+		
+	}
+}
